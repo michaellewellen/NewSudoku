@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\SudokuInputEvents.exe.config
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\SudokuInputEvents.exe
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\SudokuInputEvents.pdb
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\MainWindow.g.cs
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\App.g.cs
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents_MarkupCompile.cache
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents_MarkupCompile.lref
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\MainWindow.baml
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.g.resources
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.Properties.Resources.resources
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.csproj.GenerateResource.cache
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.exe
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.pdb
