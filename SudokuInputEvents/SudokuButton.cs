@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight.CommandWpf;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -18,6 +19,18 @@ namespace SudokuInputEvents
             set { SetField(ref buttonValue, value); }
         }
 
+        private RelayCommand changeValue;
+        public RelayCommand ChangeValue => changeValue ?? (changeValue = new RelayCommand(
+            () =>
+            // Execute Funtion
+            {
+                Value++;
+            },
+            () =>
+            // Can Execute Function
+            {
+                return true;
+            }));
 
 
         #region INotifyPropertyChanged Implementation

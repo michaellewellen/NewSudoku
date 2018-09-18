@@ -131,7 +131,7 @@
                         <Button FontSize="28"
                                 DataContext="{Binding Buttons[0]}"
                                 Content="{Binding Value}"
-                                Click="gameButtonClicked"
+                                Command="{Binding ChangeValue}"
                                 VerticalContentAlignment="Center"
                                 HorizontalContentAlignment="Center"
                                 Background="White"

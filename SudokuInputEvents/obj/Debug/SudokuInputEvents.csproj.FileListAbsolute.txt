@@ -13,3 +13,17 @@ C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\Sudoku
 C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.csproj.CoreCompileInputs.cache
 C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.exe
 C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.pdb
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\CommonServiceLocator.dll
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\App.baml
+C:\Users\micha\source\repos\SudokuInputEvents\SudokuInputEvents\obj\Debug\SudokuInputEvents.csproj.CopyComplete
