@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows.Media;
 
 namespace SudokuInputEvents
 {
@@ -11,7 +12,24 @@ namespace SudokuInputEvents
         public SudokuButton(int? value = null)
         {
             Value = value;
+            IsEditable = true;
+            ButtonColor = Brushes.Blue;
         }
+        private bool isEditable;
+        public bool IsEditable
+        {
+            get { return isEditable; }
+            set { SetField(ref isEditable, value); }
+        }
+
+        private SolidColorBrush buttonColor;
+        public SolidColorBrush ButtonColor
+        {
+            get { return buttonColor; }
+            set { SetField(ref buttonColor, value); }
+        }
+
+
         private int? buttonValue;
         public int? Value
         {
@@ -20,17 +38,20 @@ namespace SudokuInputEvents
         }
 
         private RelayCommand changeValue;
+
         public RelayCommand ChangeValue => changeValue ?? (changeValue = new RelayCommand(
             () =>
             // Execute Funtion
             {
-                Value++;
+                if (Value == null)
+                    Value = 1;
+                else if (Value == 9)
+                    Value = null;
+                else
+                    Value++;
             },
-            () =>
-            // Can Execute Function
-            {
-                return true;
-            }));
+            // can Execute function
+            () => IsEditable));
 
 
         #region INotifyPropertyChanged Implementation

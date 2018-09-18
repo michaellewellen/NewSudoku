@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media;
 
 namespace SudokuInputEvents
 {
@@ -14,6 +15,9 @@ namespace SudokuInputEvents
         {
             Buttons = new SudokuButton[88];
             Buttons[0] = new SudokuButton(4);
+            Buttons[1] = new SudokuButton(7);
+          //  Buttons[1].IsEditable = false;
+            Buttons[1].ButtonColor = Brushes.Red;
 
         }
 

@@ -135,19 +135,20 @@
                                 VerticalContentAlignment="Center"
                                 HorizontalContentAlignment="Center"
                                 Background="White"
-                                Foreground="Blue" />
+                                Foreground="{Binding ButtonColor}"/>
                     </Border>
                     <Border Grid.Column="0"
                             Grid.Row="1"
                             BorderBrush="{StaticResource Brush}"
                             BorderThickness="2,1,1,1">
                         <Button FontSize="28"
-                                Content="{Binding Box01}"
-                                Click="gameButtonClicked"
+                                DataContext="{Binding Buttons[1]}"
+                                Content="{Binding Value}"
+                                Command="{Binding ChangeValue}"
                                 VerticalContentAlignment="Center"
                                 HorizontalContentAlignment="Center"
                                 Background="White"
-                                Foreground="Blue" />
+                                Foreground="{Binding ButtonColor}" />
                     </Border>
                     <Border Grid.Column="0"
                             Grid.Row="2"
